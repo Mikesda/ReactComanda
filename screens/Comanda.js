@@ -1,14 +1,17 @@
 import { StyleSheet, Text, View } from "react-native";
 import Button from "../components/button";
 import Input from "../components/input";
+import { useContext } from "react";
+import { AuthProvider } from "../context/AuthContex";
 
 export default function Comanda({navigation}){
+    const {useContext} = useContext(AuthProvider)
     return(
         <View style={styles.container}>
 
             <View>
                 <Text>Olá,</Text>
-                <Text>Mike e Gabriel</Text>
+                <Text>{username}</Text>
             </View>
 
             <View>

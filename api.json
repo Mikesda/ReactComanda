@@ -18,5 +18,19 @@
         "preco": 90,
         "id": 3
         }
+    ],
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Mike Silva",
+            "email": "mike@fiap.com.br",
+            "senha": "1234"
+        },
+        {
+            "id": 1,
+            "nome": "Gabriel Pessoa",
+            "email": "gabriel@fiap.com.br",
+            "senha": "4321"
+        }
     ]
 }
