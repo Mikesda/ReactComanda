@@ -13,7 +13,7 @@ export function AuthProvider({children}){
         const usuarios = resp.data
         const usuario = usuarios.find(u => u.email === credenciais.email)
         if(usuario?.senha === credenciais.senha){
-           setUsername(user.nome)
+           setUsername(usuario.nome)
            return true 
         }
         return false

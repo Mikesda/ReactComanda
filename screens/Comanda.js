@@ -5,7 +5,7 @@ import { useContext } from "react";
 import { AuthProvider } from "../context/AuthContex";
 
 export default function Comanda({navigation}){
-    const {useContext} = useContext(AuthProvider)
+    const {username} = useContext(AuthProvider)
     return(
         <View style={styles.container}>
 
